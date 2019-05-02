@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title> Simple Search / Filter</title>
+</head>
+
+<body>
+
+    <section class="section">
+        <div class="container">
+            <h1 class="title"><i class="fas fa-map-marked icons"></i> Simple Filter Search</h1>
+            <h2 class="subtitle">
+                Please start typing a <strong>state</strong>, <strong>state capital</strong>, or state abbreviation to
+                get results.
+            </h2>
+        </div>
+    </section>
+
+    <div class="container is-widescreen has-text-centered">
+        <div class="notification">
+            <div class="field">
+                <div class="control">
+                    <input id="search" class="input is-large" type="text" placeholder="Enter City or State">
+                    <div id="match-list" class="search-matches"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Scripts -->
+    <script src="assets/js/js.js"></script>
+</body>
+
+</html>

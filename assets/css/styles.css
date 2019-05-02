@@ -1,0 +1,15 @@
+.card {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card-footer-item i {
+    text-decoration: none;
+}
+
+.subtitle,
+title {
+    padding-left: 3rem;
+}
+
+.icons {}
